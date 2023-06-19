@@ -1,8 +1,8 @@
 <?php
 // MySQL 연결 정보
-$servername = "localhost"; #서버의 실제주소
+$servername = "https://www.unknowndata.site/1/KDT_Simulated_Hacking_Site/"; #서버의 실제주소
 $username = "root"; #mysql ID
-$password = "1111"; # mysql password
+$password = ""; # mysql password
 $dbname = "kdt_test"; #사용할 데이터베이스 이름
 // MySQL 연결
 $conn = new mysqli($servername, $username, $password, $dbname);
